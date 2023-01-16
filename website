@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RMIT</title>
+  <style>
+    /* Define the colors */
+    :root {
+      --rmit-blue: rgb(0, 0, 84);
+      --rmit-red: rgb(230, 30, 42);
+      --rmit-yellow: rgb(250, 200, 0);
+      --black: rgb(0, 0, 0);
+      --white: rgb(255, 255, 255);
+    }
+    
+    /* Set the background color to RMIT blue */
+    body {
+      background-color: var(--rmit-blue);
+    }
+    
+    /* Style the banner */
+    .banner {
+      background-image: url("RMIT_banner.png");
+      background-size: cover;
+      height: 400px;
+    }
+    
+    /* Style the logo */
+    .logo {
+      background-image: url("RMIT_logo.png");
+      background-size: contain;
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+    }
+    
+    /* Style the student image */
+    .student-image {
+      float: right;
+      width: 300px;
+      height: 400px;
+      background-image: url("RMIT_student.jpeg");
+      background-size: cover;
+    }
+    
+    /* Style the text */
+    .text {
+      color: var(--white);
+      font-size: 18px;
+      line-height: 1.5;
+      padding: 20px;
+    }
+    
+    /* Style the "Find out more" link */
+    .find-out-more { 
+      color: var(--rmit-red);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="logo"></div>
+  </div>
+  <div class="student-image"></div>
+  <div class="text">
+    <!-- Add the text from RMIT_text.txt here -->
+    RMIT_text.txt content
+    <a href="https://www.rmit.edu.au" class="find-out-more">Find out more ></a>
+  </div>
+</body>
+</html>
